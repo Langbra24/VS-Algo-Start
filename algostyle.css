@@ -1,0 +1,44 @@
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+}
+
+.nav * {
+   margin: 50px;  
+  display: inline-flex; 
+
+}
+.nav { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none; 
+    
+
+        }
+    
+    .button-nav {
+        position: absolute; 
+        width: 193px;
+        height: 52px;
+        top: 39px;
+        background: #002BEB;
+
+    }
+
+    h1 { 
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 122px;
+
+  
+
+
+    
+    }
+
+
+    
