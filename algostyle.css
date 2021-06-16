@@ -4,41 +4,86 @@
     src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 }
 
-.nav * {
-   margin: 50px;  
-  display: inline-flex; 
+
+*   {
+margin: 0;
+padding: 0; 
+list-style: none; 
+text-decoration: none;   
 
 }
-.nav { 
+
+
+.header { 
+    width: 100%; 
+    height: 106px;
+    display: table;
+    background-color: grey;
+    
+    }
+    
+.inner-nav { 
+    display: table-cell;
+    width: 1000px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    list-style-type: none; 
+    vertical-align: middle;
     
-
-        }
-    
-    .button-nav {
-        position: absolute; 
-        width: 193px;
-        height: 52px;
-        top: 39px;
-        background: #002BEB;
-
     }
 
+.navigation {
+    float: right;
+    height: 100%;
+    display: table-cell;
+
+}
+
+.navigation a { 
+display: table-cell;
+height: 100%;
+padding: 50px;
+
+}
+
+.navigation a li { 
+display: table-cell;
+vertical-align: center;
+}
+
+
+.button-nav {
+    display: inline-block;  
+    width: 193px;
+    height: 52px;
+    top: 39px;
+    background: #002BEB;
+
+}
+
     h1 { 
+    display: flex;    
     position: absolute;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-size: 100px;
     line-height: 122px;
-
-  
-
-
     
     }
 
 
-    
+.p {
+    display: flex;
+    font-family: 'Montserrat', sans-serif; 
+    position: absolute;
+    width: 592px;
+    height: 87px;
+    left: 79px;
+    top: 450px;
+}
+
+.button-two {
+display: flex;
+background-color: white;
+border-color: #002BEB;
+
+
+}   
