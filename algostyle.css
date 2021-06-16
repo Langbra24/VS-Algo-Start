@@ -18,7 +18,7 @@ text-decoration: none;
     width: 100%; 
     height: 106px;
     display: table;
-    background-color: grey;
+    background-color: white;
     
     }
     
@@ -87,3 +87,38 @@ border-color: #002BEB;
 
 
 }   
+
+
+.box1 { 
+display: flex;
+width: 646px;
+height: 376px;
+left: 79px;
+top: 161px;
+
+
+}
+
+
+
+.p { 
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+
+.button-group { 
+display: flex;
+flex-direction: row; 
+position: absolute;
+width: 416px;
+height: 52px;
+left: 79px;
+top: 698px;
+
+
+}
