@@ -31,9 +31,11 @@ text-decoration: none;
     }
 
 .navigation {
+    margin-bottom: 72px; 
     float: right;
     height: 100%;
     display: table-cell;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -55,17 +57,19 @@ vertical-align: center;
     width: 193px;
     height: 52px;
     top: 39px;
-    background: #002BEB;
+    background: #6C63FF;
 
 }
 
-    h1 { 
+    .h1 {  
     display: flex;    
-    position: absolute;
+    flex-direction: column;
+    padding-left: 79px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-size: 100px;
     line-height: 122px;
+    color: #6C63FF; 
     
     }
 
@@ -83,7 +87,7 @@ vertical-align: center;
 .button-two {
 display: flex;
 background-color: white;
-border-color: #002BEB;
+border-color: #6C63FF;
 
 
 }   
